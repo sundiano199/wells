@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circle -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#E0004D" stroke-width="3"/>
+
+  <!-- Enlarged Star (Scaled and Centered) -->
+  <g transform="translate(50,50) scale(1.7) translate(-50,-50)">
+    <path d="M50 28l6.2 13 14.3 2.1-10.3 10 2.4 14.2L50 60l-12.6 6.6 2.4-14.2-10.3-10 14.3-2.1L50 28z" 
+          fill="none" stroke="#E0004D" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+</svg>

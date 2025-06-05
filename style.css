@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Google Sans', sans-serif;
+  background: linear-gradient(to bottom, #dbe1f1, #f0f0f0);
+  padding: 16px;
+  color: #000;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 999px;
+  padding: 6px 12px;
+  width: 60%;
+  margin: 12px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.notif-bell {
+  margin-left: auto;
+}
+
+.greeting {
+  font-size: 26px;
+  font-weight: 100;
+  margin: 20px 0 10px;
+  /* margin-bottom: 50px; */
+}
+
+.account-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.account-card h4 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.account-card .balance {
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+    margin: 4px 0;
+}
+
+
+.account-card .balance.negative {
+  color: black;
+  font-weight: 400;
+}
+
+.account-card .label {
+  color: rgb(84, 83, 83);
+  font-size: 12px;
+}
+.img {
+    width: 30px;
+    height: 30px;
+}
+.imgtxt {
+    display: flex;
+    /* align-items: ; */
+    
+}
+.close img{
+    margin-top: -20px;
+}
+.promo {
+    display: flex;
+    justify-content: space-between;
+  margin-top: 10px;
+  padding: 12px;
+  background: #FAEFF3;
+  border-radius: 12px;
+  font-size: 14px;
+  border: 1px solid #f3d3f3;
+}
+.stinvest p{
+    font-size: 12px;
+    margin-top: -1px;
+    margin-bottom: -7px;
+
+}
+
+.star {
+  color: #0a0104;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.cta {
+  color: #5a2ca0;
+font-weight: bold;
+}
+
+.open-new {
+  color: #5a2ca0;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+}
+
+.bottom-nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+.bottom-nav div.active {
+  color: #d6014c;
+}

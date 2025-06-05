@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bank Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Google Sans', sans-serif;
+      background: linear-gradient(to bottom, #dbe1f1, #f0f0f0);
+      padding: 16px;
+      color: #000;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 999px;
+      padding: 6px 12px;
+      width: 60%;
+      margin: 12px 0;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .greeting {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 20px 0 10px;
+    }
+
+    .account-card {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .account-card h4 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .account-card .balance {
+      font-size: 24px;
+      font-weight: normal;
+      margin: 4px 0;
+    }
+
+    .account-card .label {
+      color: gray;
+      font-size: 12px;
+    }
+
+    .promo {
+      margin-top: 10px;
+      padding: 12px;
+      background: #fceefe;
+      border-radius: 12px;
+      font-size: 14px;
+      border: 1px solid #f3d3f3;
+    }
+
+    .promo .star {
+      color: #e0004d;
+      margin-right: 8px;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+      font-size: 12px;
+    }
+
+    .bottom-nav div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #333;
+    }
+
+    .bottom-nav div.active {
+      color: #d6014c;
+    }
+
+    .open-new {
+      color: #5a2ca0;
+      font-weight: bold;      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>06:52</span>
+    <span>5G+ 🔋87%</span>
+  </div>
+
+  <div class="search-bar">
+    🔍 Ask Fargo
+    <span style="margin-left:auto;">🔔<sup>4</sup></span>
+  </div>
+
+  <div class="greeting">
+    Good morning,<br/>Lee
+  </div>
+
+  <div class="account-card">
+    <h4>EVA CHECKING ...4691</h4>
+    <div class="balance">$1.04</div>
+    <div class="label">Available balance</div>
+  </div>
+
+  <div class="account-card">
+    <h4>EVERYDAY CHECKING ...4006</h4>
+    <div class="balance" style="color:red;">-$2,427.15</div>
+    <div class="label">Available balance</div>
+
+    <div class="promo">
+      <strong class="star">★ Stock Fractions</strong><br/>
+      Start investing with just $10<br/>
+      <span style="color:#5a2ca0; font-weight:bold;">Open an account</span>
+    </div>
+  </div>
+
+  <div class="account-card">
+    <h4>EVA SAVINGS ...1684</h4>
+    <div class="balance">$0.06</div>
+    <div class="label">Available balance</div>
+  </div>
+<div class="open-new">➕ Open new account</div>
+
+  <div class="bottom-nav">
+    <div class="active">
+      🏠<br/>Accounts
+    </div>
+    <div>
+      📥<br/>Deposit
+    </div>
+    <div>
+      💸<br/>Pay & Transfer
+    </div>
+    <div>
+      🧭<br/>Explore
+    </div>
+    <div>
+      ☰<br/>Menu
+    </div>
+  </div>
+
+</body>
+</html>
